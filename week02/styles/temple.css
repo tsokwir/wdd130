@@ -1,0 +1,67 @@
+/* temple.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eaeaea;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px;
+    background-color: #333;
+}
+
+section {
+    background-color: #abe;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+section h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: .9rem;
+}
