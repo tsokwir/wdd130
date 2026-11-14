@@ -1,0 +1,105 @@
+/* CSS Variables */
+:root {
+    --primary-color: #023047;
+    /* Deep ocean blue */
+    --secondary-color: #219ebc;
+    /* River blue */
+    --accent1-color: #fb8500;
+    /* Adventure orange */
+    --accent2-color: #ffffff;
+    /* White */
+
+    --heading-font: Georgia, "Times New Roman", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+/* Header, Main and Footer */
+header,
+main,
+footer {
+    width: 840px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Headings */
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+/* Navigation, Paragraphs, Sections and Articles */
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Social Media Links */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
