@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--secondary-color);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -80,9 +80,6 @@ h2 {
 }
 
 /* Navigation, Paragraphs, Sections and Articles */
-nav a {
-    background-color: var(--secondary-color);
-}
 
 nav,
 p,
