@@ -47,6 +47,7 @@ footer {
 }
 
 /* Headings */
+
 h1 {
     position: absolute;
     top: 20px;
@@ -63,13 +64,23 @@ h2 {
     color: var(--primary-color);
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 15px;
 }
 
 /* Navigation, Paragraphs, Sections and Articles */
-nav,
+nav a,
 p,
 section,
 article {
