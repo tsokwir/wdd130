@@ -81,7 +81,10 @@ h2 {
 
 /* Navigation, Paragraphs, Sections and Articles */
 
-nav,
+nav {
+    background-color: var(--secondary-color);
+}
+
 p,
 section,
 article {
