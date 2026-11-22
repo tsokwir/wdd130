@@ -90,11 +90,6 @@ nav {
     background-color: var(--secondary-color);
 }
 
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-}
-
 nav ul {
     display: flex;
     flex-direction: row;
@@ -116,6 +111,7 @@ nav a {
     border: 1px solid #777;
     padding: 15px 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 p,
@@ -163,7 +159,7 @@ header img {
 .socialmedia {
     text-decoration: none;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: flex-end;
     gap: 15px;
 }
@@ -176,6 +172,7 @@ header img {
 /* Footer */
 footer {
     display: flex;
+    justify-content: space-between;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     align-items: flex-end;
